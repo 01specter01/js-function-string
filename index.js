@@ -56,6 +56,12 @@ function numTimesWordRepeated() {
 console.log("___________Aufgabe 2_______________");
 console.log(numTimesWordRepeated());
 
-// console.log(numTimesWordRepeated());
 //3. Schreibe eine Funktion, die alle Wörter in einem Text rückwärts geschrieben zurückgibt. Die Position der Worte soll sich dabei aber nicht ändern.
 //Beispiel: “the quick brown fox jumps over the lazy dog” => “eht kciuq nworb xof spmuj revo eht yzal god”
+
+function reverseOnlyLettersOfWord() {
+    const setance = "the quick brown fox jumps over the lazy dog";
+    return setance.split("").reverse().join("");
+}
+console.log("___________Aufgabe 3_______________");
+console.log(reverseOnlyLettersOfWord());
