@@ -36,6 +36,7 @@ console.log("___________Aufgabe 1_______________");
 console.log(longestString());
 
 //2. Schreibe eine Funktion, die alle Vorkommen eines Wortes in einem Text prüft.
+
 function numTimesWordRepeated() {
     const str =
         "The weather is good but if the weather is bad we realy need to brace for bad weather";
@@ -49,9 +50,12 @@ function numTimesWordRepeated() {
             char[word]++;
         }
     }
+
+    return char;
 }
 console.log("___________Aufgabe 2_______________");
-
 console.log(numTimesWordRepeated());
+
+// console.log(numTimesWordRepeated());
 //3. Schreibe eine Funktion, die alle Wörter in einem Text rückwärts geschrieben zurückgibt. Die Position der Worte soll sich dabei aber nicht ändern.
 //Beispiel: “the quick brown fox jumps over the lazy dog” => “eht kciuq nworb xof spmuj revo eht yzal god”
