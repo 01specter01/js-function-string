@@ -61,7 +61,10 @@ console.log(numTimesWordRepeated());
 
 function reverseOnlyLettersOfWord() {
     const setance = "the quick brown fox jumps over the lazy dog";
-    return setance.split("").reverse().join("");
+    return setance
+        .split(" ")
+        .map((word) => word.split("").reverse().join(""))
+        .join(" ");
 }
 console.log("___________Aufgabe 3_______________");
 console.log(reverseOnlyLettersOfWord());
